@@ -1,0 +1,50 @@
+.row {
+    width: 100%;
+}
+h2{
+    width:25%;
+    position:relative;
+    left:70%;
+    top:10%;
+    background-color:#f0a30a;
+    padding:2%;
+}
+@media (min-width: 993px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4 {
+        float: left;
+        border: 2px solid black;
+        margin:1%;
+    }
+    .col-lg-1 {
+        width: 8.33%;
+    }
+    .col-lg-2 {
+        width: 16.66%;
+    }
+    .col-lg-3 {
+        width: 25%;
+    }
+    .col-lg-4 {
+        width: 33.33%;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4{
+        float: left;
+        border: 1px solid green;
+    }
+    .col-md-1 {
+        width: 8.33%;
+    }
+    .col-md-2 {
+        width: 16.66%;
+    }
+    .col-md-3 {
+        width: 25%;
+    }
+    .col-md-4 {
+        width: 33.33%;
+    }
+}
